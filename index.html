@@ -102,12 +102,12 @@
             
             // 3. ประกอบข้อความส่งเข้า LINE
             let finalMessage = `🎮 RoV Low Winrate Update\n`;
-            finalMessage += `👤 User: ${userPlayer}\n`;
-            finalMessage += `⚔️ จำนวนรอบ: ${matchCount}\n`;
-            finalMessage += `🏆 วินเรท: ${winRate}\n`;
+            finalMessage += ` User: ${userPlayer}\n`;
+            finalMessage += ` จำนวนรอบ: ${matchCount}\n`;
+            finalMessage += ` วินเรท: ${winRate}\n`;
             
             if(msgInput) {
-                finalMessage += `\n📝 รายละเอียด:\n${msgInput}\n`;
+                finalMessage += `\n รายละเอียด:\n${msgInput}\n`;
             }
 
             finalMessage += `\n━━━━━━━━━━━━━━\n⏰ Last Update: ${timeStr}`;
